@@ -61,7 +61,7 @@ if __name__ == "__main__":
     parser.add_argument('--ds', type=str, default='Rat', help='which dataset')
     parser.add_argument('--rs', type=int, default=0, help='which random seed')
     args = parser.parse_args()
-    setup_seed(18) # atom 19
+    setup_seed(16)
     print(args.ds)
 
     # Read datasets
