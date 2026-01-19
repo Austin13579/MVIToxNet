@@ -25,10 +25,10 @@ Get Fingerprints first
 cd src/
 mkdir fps
 python get_fp.py
-'''
+```
 
 Training
-'''
+```
 python train.py --ds Rabbit/Rat --rs 0/1/2/3/4/5/6/7/8/9
 ```
 
